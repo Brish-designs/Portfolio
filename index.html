@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #222; color: #fff; padding: 60px 20px; text-align: center; }
+    nav { background: #444; padding: 10px 0; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    section { padding: 40px 20px; }
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .project { border: 1px solid #ccc; padding: 15px; border-radius: 8px; }
+    .skills { display: flex; gap: 20px; flex-wrap: wrap; }
+    .skill { background: #f4f4f4; padding: 10px 20px; border-radius: 5px; }
+    footer { background: #222; color: white; text-align: center; padding: 20px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I’m Briton</h1>
+    <p>Frontend Web Developer</p>
+    <a href="#projects" style="color: #0af; text-decoration: underline;">View My Work</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate web developer who loves turning ideas into real websites. I have skills in HTML and CSS and I’m currently learning JavaScript.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Simple Portfolio</h3>
+        <p>A clean and responsive portfolio page using HTML and CSS.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Business Landing Page</h3>
+        <p>A static landing page for a fictional business with a modern layout.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">Responsive Design</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: brishsmith535@gmail.com</p>
+    <p>GitHub: <a href="#">github.com/yourprofile</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Briton . All rights reserved.</p>
+  </footer>
+</body>
+</html>
